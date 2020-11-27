@@ -13,15 +13,15 @@
 </style>
 <body class="w3-content" style="max-width:1200px">
 
-<!-- Sidebar/menu Parte esquerda do Site, Menus e logo-->
-<!-- Logo do Site Sua Oferta -->
+<!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
     <div class="w3-container w3-display-container w3-padding-16">
         <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
         <h3 class="w3-wide w3-text-blue "><b><strong>Sua Oferta</strong></b></h3>
     </div>
 
-    <!-- Menu Lateral usando Drop Down -->
+
+
     <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
         <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align " id="myBtn">
             Contratar <i class="fa fa-caret-down"></i>
@@ -31,7 +31,7 @@
             <a href="#" class="w3-bar-item w3-button">Produtos</a>
         </div>
 
-        <!-- Menu Lateral usando Drop Down -->
+
         <a onclick="myAccFunc2()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn2">
             Ofertar <i class="fa fa-caret-down"></i>
         </a>
@@ -40,14 +40,15 @@
             <a href="#" class="w3-bar-item w3-button">Produtos</a>
         </div>
 
+
+
     </div>
-    <!-- Texto que leva para o fim da página com os dados da Empresa -->
-    <a href="#footer" class="w3-bar-item w3-button">Sobre</a>
+    <a href="#footer"  class="w3-bar-item w3-button w3-padding">Sobre</a>
 </nav>
 
 <!-- Top menu on small screens -->
 <header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
-    <div class="w3-bar-item w3-padding-24 w3-wide">Sua Oferta</div>
+    <div class="w3-bar-item w3-padding-24 w3-wide">LOGO</div>
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
 </header>
 
@@ -62,84 +63,69 @@
 
     <!-- Top header -->
     <header class="w3-container w3-xlarge w3-light-grey w3-border-blue w3-border w3-round-xxlarge">
+        <!--p class="w3-left">Sua Oferta</p-->
         <p class="w3-left-align ">
             <input type="text" class="form-control"  id="inputSuccess2" aria-describedby="inputSuccess2Status" placeholder="Pesquise aqui">
+
             <i class="fa fa-search" aria-hidden="true"></i>
-
-            <label class="checkbox-inline w3-margin">
-                <input type="checkbox" value="">Produto
-            </label>
-            <label class="checkbox-inline w3-margin">
-                <input type="checkbox" value="">Serviço
-            </label>
-
-
-        <img src="../IMAGES/person.svg" style="width: 5%" class="w3-right">
-
         </p>
     </header>
 
+    <!-- Image header -->
+    <div class="w3-display-container w3-container">
 
-    <!-- Grids de Serviços e Produtos -->
+        <h1 class="w3-center">Serviço</h1>
+
+    </div>
+
+
+
+    <!-- Product grid -->
     <div class="w3-row ">
-        <div class="">
+        <div class="w3-col">
             <div class="w3-container w3-border w3-border-blue w3-margin-top w3-round-xxlarge">
-                <img src="../IMAGES/pergolados.jpg" style="width:20%"  class="w3-round-xxlarge w3-margin-top">
-
-        <span class="stars-inactive" style="width:88%">
-            <i class="fa fa-star-o w3-right w3-margin-top" aria-hidden="true"></i>
-            <i class="fa fa-star w3-right w3-margin-top" aria-hidden="true"></i>
-            <i class="fa fa-star w3-right w3-margin-top" aria-hidden="true"></i>
-            <i class="fa fa-star w3-right w3-margin-top" aria-hidden="true"></i>
-        </span>
-
-        <span class="stars-active">
-            <i class="fa fa-star w3-right w3-margin-top " aria-hidden="true"></i>
-        </span>
-                <h4 class="w3-right w3-margin-right w3-text-blue">Serviço</h4>
-
+                <img src="../IMAGES/pergolados.jpg" style="width:20%"  class="w3-round-xxlarge w3-left-align w3-margin-top" >
                 <h3>Construção de Pergolados<br></h3>
                 <p>Construimos pergolados em madeiras nobres sob medida</p>
-
             </div>
+
         </div>
 
-        <div class="w3-col">
-            <div class="w3-container w3-border w3-round-xxlarge w3-border-blue w3-margin-top">
-                <img src="../IMAGES/CanecaMadeira.jpg" style="width:20%"  class="w3-round-xxlarge w3-left-align w3-margin-top" >
-                <h3>Canecas Rusticas de Madeira<br></h3>
-                <p>Vários modelos de caneca de madeira pura com estilo rustico</p>
-            </div>
-        </div>
 
         <div class="w3-col">
             <div class="w3-container w3-border w3-round-xxlarge w3-border-blue w3-margin-top">
-                <img src="../IMAGES/bicicleta.jpg" style="width:15%"  class="w3-round-xxlarge w3-left-align w3-margin-top" >
-                <h3>Bicicleta Caloi Infantil<br></h3>
-                <p>Bicicleta infantil caloi Pixel Aro 16, pouco usada, em perfeito estado</p>
+                <img src="../IMAGES/pergolados.jpg" style="width:20%"  class="w3-round-xxlarge w3-left-align w3-margin-top" >
+                <h3>Construção de Pergolados<br></h3>
+                <p>Construimos pergolados em madeiras nobres sob medida</p>
             </div>
+
         </div>
+
+
 
         <div class="w3-col">
             <div class="w3-container w3-border w3-round-xxlarge w3-border-blue w3-margin-top">
-                <img src="../IMAGES/Jardinagem.jpg" style="width:20%"  class="w3-round-xxlarge w3-left-align w3-margin-top" >
-                <h3>Jardinagem<br></h3>
-                <p>Faço todo serviço de jardinagem e paisagismo</p>
+                <img src="../IMAGES/pergolados.jpg" style="width:20%"  class="w3-round-xxlarge w3-left-align w3-margin-top" >
+                <h3>Construção de Pergolados<br></h3>
+                <p>Construimos pergolados em madeiras nobres sob medida</p>
             </div>
+
         </div>
+
+
 
     </div>
 
     <!-- Subscribe section -->
-    <!--div class="w3-container w3-black w3-padding-32">
+    <div class="w3-container w3-black w3-padding-32">
         <h1>Subscribe</h1>
         <p>To get special offers and VIP treatment:</p>
         <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
         <button type="button" class="w3-button w3-red w3-margin-bottom">Subscribe</button>
-    </div-->
+    </div>
 
     <!-- Footer -->
-    <!--footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+    <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
         <div class="w3-row-padding">
             <div class="w3-col s4">
                 <h4>Contact</h4>
@@ -183,14 +169,14 @@
                 <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
             </div>
         </div>
-    </footer-->
+    </footer>
 
-    <div class="w3-light-gray w3-center w3-padding-24 w3-border w3-border-blue ">Produzido por <a href="#" title="SuaOferta" target="_blank" class="w3-hover-opacity">SuaOferta</a></div>
+    <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
 
     <!-- End page content -->
 </div>
 
-<!-- Newsletter Modal>
+<!-- Newsletter Modal -->
 <div id="newsletter" class="w3-modal">
     <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
         <div class="w3-container w3-white w3-center">
@@ -201,7 +187,7 @@
             <button type="button" class="w3-button w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('newsletter').style.display='none'">Subscribe</button>
         </div>
     </div>
-</div> -->
+</div>
 
 <script>
     // Função DropDown chamando demoAcc
@@ -224,13 +210,13 @@
         }
     }
 
-    // Clicando no "Contratar ou Ofertar" vai abrir os submenus
+    // Click on the "Jeans" link on page load to open the accordion for demo purposes
     document.getElementById("myBtn").click();
     document.getElementById("myBtn2").click();
 
 
 
-    // Abre e fecha os sideBar
+    // Open and close sidebar
     function w3_open() {
         document.getElementById("mySidebar").style.display = "block";
         document.getElementById("myOverlay").style.display = "block";
