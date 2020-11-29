@@ -1,9 +1,9 @@
-/* Bordered form */
+/* Form com borda */
 form {
     border: 3px solid #f1f1f1;
 }
 
-/* Full-width inputs */
+/* Entradas de largura total */
 input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
@@ -13,7 +13,7 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
 }
 
-/* Set a style for all buttons */
+/* Defina um estilo para todos os botões */
 button {
     background-color: #4CAF50;
     color: white;
@@ -24,40 +24,72 @@ button {
     width: 100%;
 }
 
-/* Add a hover effect for buttons */
+/* Adicione um efeito de foco para os botões */
 button:hover {
     opacity: 0.8;
 }
 
-/* Extra style for the cancel button (red) */
+/* Estilo extra para o botão Cancelar (vermelho) */
 .cancelbtn {
     width: auto;
     padding: 10px 18px;
     background-color: #f44336;
 }
 
-/* Center the avatar image inside this container */
+/* centralize a imagem do avatar dentro deste contêiner */
 .imgcontainer {
     text-align: center;
     margin: 24px 0 12px 0;
 }
 
-/* Avatar image */
+/* Avatar imagem */
 img.avatar {
     width: 40%;
     border-radius: 50%;
 }
 
-/* Add padding to containers */
+/* Adicionar preenchimento aos contêineres */
 .container {
     padding: 16px;
 }
 
-/* The "Forgot password" text */
+/* O texto "Esqueci a senha" */
 span.psw {
     float: right;
     padding-top: 16px;
 }
+
+.Radio {
+    display: inline-flex;
+    align-items: center;
+}
+
+.Radio--large {
+    font-size: 2rem;
+}
+
+.Radio-Input {
+    margin: 0 0.5rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color:#2196F3!important;
+    color: white;
+}
+
+
+.imgHolder {
+    position: relative;
+}
+.imgHolder span {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: 2px solid green;
+}
+
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
@@ -68,4 +100,6 @@ span.psw {
     .cancelbtn {
         width: 100%;
     }
+
+
 }
