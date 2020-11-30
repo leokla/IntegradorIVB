@@ -6,7 +6,7 @@ form {
 /* Entradas de largura total */
 input[type=text], input[type=password] {
     width: 100%;
-    padding: 12px 20px
+    padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -16,7 +16,7 @@ input[type=text], input[type=password] {
 /* Entradas de meia largura */
 .inputMedio{
     width: 250px;
-    padding: 12px 20px
+    padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -25,7 +25,7 @@ input[type=text], input[type=password] {
 
 /* Defina um estilo para todos os botões */
 button {
-    background-color: #4CAF50;
+    background-color: #2196F3;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -106,9 +106,6 @@ footer {
     span.psw {
         display: block;
         float: none;
-    }
-    .cancelbtn {
-        width: 100%;
     }
 
 
