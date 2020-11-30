@@ -4,20 +4,20 @@
     <title>Sua Oferta</title>
     <link rel="stylesheet" type="text/css" href="../CSS/style2.css" />
 </head>
-<form action="action_page.php" method="post">
+<form>
     <div class="imgcontainer">
         <img src="../IMAGES/loginAvatar.png" alt="Avatar" class="avatar">
     </div>
 
     <div class="container">
         <label><b>Usuário</b></label>
-        <input type="text" placeholder="Enter com o Usuário" name="uname" required>
+        <input type="text" placeholder="Enter com o Usuário" name="uname">
 
         <label><b>Senha</b></label>
-        <input type="password" placeholder="Entre com a Senha" name="psw" required>
+        <input type="password" placeholder="Entre com a Senha" name="psw">
 
-        <button type="submit">Login</button>
-        <button type="submit">Cadastrar</button>
+        <button type="submit" formaction="TelaPrincipal2.html">Login</button>
+        <button type="submit" formaction="Cadastro.html">Cadastrar</button>
         <label>
             <input type="checkbox" checked="checked" name="remember"> Lembre-me
         </label>
@@ -25,7 +25,7 @@
     </div>
 
     <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="cancelbtn">Cancelar</button>
+        <!--button type="button" class="cancelbtn">Cancelar</button-->
         <span class="psw">Perdeu a <a href="#">Senha?</a></span>
     </div>
 </form>
