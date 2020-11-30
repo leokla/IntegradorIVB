@@ -1,7 +1,7 @@
 // Função DropDown chamando demoAcc
 function myAccFunc() {
-    var x = document.getElementById("demoAcc");
-    if (x.className.indexOf("w3-show") == -1) {
+    var x = document.getElementById("open_contratar");
+    if (x.className.indexOf("w3-show") === -1) {
         x.className += " w3-show";
     } else {
         x.className = x.className.replace(" w3-show", "");
@@ -10,8 +10,8 @@ function myAccFunc() {
 
 // Função DropDown chamando demoAcc2
 function myAccFunc2() {
-    var x = document.getElementById("demoAcc2");
-    if (x.className.indexOf("w3-show") == -1) {
+    var x = document.getElementById("open_Ofertar");
+    if (x.className.indexOf("w3-show") === -1) {
         x.className += " w3-show";
     } else {
         x.className = x.className.replace(" w3-show", "");
@@ -25,12 +25,12 @@ document.getElementById("myBtn2").click();
 
 
 // Abre e fecha os sideBar
-function w3_open() {
+function open_drop() {
     document.getElementById("mySidebar").style.display = "block";
     document.getElementById("myOverlay").style.display = "block";
 }
 
-function w3_close() {
+function close_drop() {
     document.getElementById("mySidebar").style.display = "none";
     document.getElementById("myOverlay").style.display = "none";
 }
